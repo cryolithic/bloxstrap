@@ -70,7 +70,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to These are the people who&apos;ve supported Bloxstrap through [Ko-fi]({0}). A massive thank you to everyone here!
+        ///   Looks up a localized string similar to These are the people who&apos;ve supported Bloxstrap through Ko-fi. A massive thank you to everyone here!
         ///Every person here is ranked by their overall pledge..
         /// </summary>
         public static string About_Supporters_Description {
@@ -316,7 +316,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Roblox is currently running, but must be closed before uninstalling Bloxstrap. Would you like close Roblox now?.
+        ///   Looks up a localized string similar to Roblox is currently running, but must be closed before uninstalling Bloxstrap. Would you like to close Roblox now?.
         /// </summary>
         public static string Bootstrapper_Uninstall_RobloxRunning {
             get {
@@ -839,20 +839,20 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to A connection could not be made, which likely indicates a poor internet connection or a firewall block. If your connection is fine, please ensure that your antivirus isn&apos;t blocking Bloxstrap..
+        /// </summary>
+        public static string Dialog_Connectivity_BadConnection {
+            get {
+                return ResourceManager.GetString("Dialog.Connectivity.BadConnection", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to More information:.
         /// </summary>
         public static string Dialog_Connectivity_MoreInfo {
             get {
                 return ResourceManager.GetString("Dialog.Connectivity.MoreInfo", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Something is likely preventing Bloxstrap from connecting to the internet..
-        /// </summary>
-        public static string Dialog_Connectivity_Preventing {
-            get {
-                return ResourceManager.GetString("Dialog.Connectivity.Preventing", resourceCulture);
             }
         }
         
@@ -880,15 +880,6 @@ namespace Bloxstrap.Resources {
         public static string Dialog_Connectivity_RobloxUpgradeSkip {
             get {
                 return ResourceManager.GetString("Dialog.Connectivity.RobloxUpgradeSkip", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to The connection timed out, which could indicate a poor internet connection or a firewall block..
-        /// </summary>
-        public static string Dialog_Connectivity_TimedOut {
-            get {
-                return ResourceManager.GetString("Dialog.Connectivity.TimedOut", resourceCulture);
             }
         }
         
@@ -1636,20 +1627,20 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Support us on Ko-fi!.
-        /// </summary>
-        public static string LaunchMenu_Donate {
-            get {
-                return ResourceManager.GetString("LaunchMenu.Donate", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Launch Roblox.
         /// </summary>
         public static string LaunchMenu_LaunchRoblox {
             get {
                 return ResourceManager.GetString("LaunchMenu.LaunchRoblox", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Launch Roblox Studio.
+        /// </summary>
+        public static string LaunchMenu_LaunchRobloxStudio {
+            get {
+                return ResourceManager.GetString("LaunchMenu.LaunchRobloxStudio", resourceCulture);
             }
         }
         
